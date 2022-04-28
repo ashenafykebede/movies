@@ -11,18 +11,20 @@ body{
   font-family: 'Playfair Display', serif;
 }
 .container{
-  width: 100%;
+  width: 90%;
+  margin: 1px auto;
+  background: rgb(172, 190, 218);
+ 
 }
+
 .movies{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 90%;
-  margin: 10px auto;
   background:black;
   color: #fff;
 }
-.toptitle{
-  margin: 10px auto;
+.heading{
   text-align: center;
+  padding: 20px;
 }

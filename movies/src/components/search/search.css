@@ -1,0 +1,9 @@
+.search_container{
+    text-align: center;
+}
+.search{
+    width:35%;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 25px auto;  
+  }
