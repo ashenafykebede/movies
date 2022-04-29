@@ -1,8 +1,9 @@
 .movie{
-    margin: 8px auto;
+    margin: 6px 6px;
     padding: 8px;
-    width: 25%;
+    width: 23.8%;
     border: 1px #fff solid;
+    border-radius: 6px;
 }
 img{
     max-width:100%;
@@ -15,4 +16,20 @@ img{
     background: black;
     padding: 0;
     border-radius: 6px;
+}
+@media screen and (max-width: 600px){
+    .movie{
+        width: 90%;
+    }
+    .movie:hover{
+        transform: scale(1);
+    }
+}
+@media screen and (max-width: 912px){
+    .movie{
+        width: 45%;
+    }
+    .movie:hover{
+        transform: scale(1);
+    }
 }

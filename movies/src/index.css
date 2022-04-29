@@ -19,12 +19,21 @@ body{
 
 .movies{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: center;
   background:black;
   color: #fff;
+  text-align: center;
 }
 .heading{
   text-align: center;
   padding: 20px;
+}
+@media screen and (max-width: 600px){
+  .movies{
+    flex-flow: column wrap;
+    align-items: center;
+  }
 }
