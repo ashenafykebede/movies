@@ -13,17 +13,10 @@ img{
 }
 .movie:hover{
     transform: scale(1.3);
-    background: black;
+    background: rgb(172, 190, 218);
+    color: black;
     padding: 0;
     border-radius: 6px;
-}
-@media screen and (max-width: 600px){
-    .movie{
-        width: 90%;
-    }
-    .movie:hover{
-        transform: scale(1);
-    }
 }
 @media screen and (max-width: 912px){
     .movie{
@@ -33,3 +26,12 @@ img{
         transform: scale(1);
     }
 }
+@media screen and (max-width: 412px){
+    .movie{
+        width: 90%;
+    }
+    .movie:hover{
+        transform: scale(1);
+    }
+}
+
