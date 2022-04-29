@@ -1,13 +1,12 @@
 import "./App.css";
 import { Card } from "./components/Card";
-import { Films } from "./components/Films";
 import React, { useState } from "react";
-import { Search } from "./components/search/Search"
+import { Search } from "./components/search/Search";
+import { FilterData } from './components/util/FilterData'
 
 function App() {
   const [text, setText] = useState();
-  const films_filtered = !text?Films:Films.filter(film=>film.Title.toLowerCase().includes(text.toLowerCase()));
-  console.log("films filtered",films_filtered);
+  const films_filtered = FilterData({text});
   return (
     <div className="container">
       <div className="heading">
